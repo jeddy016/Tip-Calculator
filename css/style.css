@@ -13,6 +13,45 @@ html, body {
   background-repeat: no-repeat;    
 }
 
+
+.topBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+form {
+  margin-top: 1%;
+  margin-right: 2%;
+  float: right;
+}
+
+.git-button {
+  border: none;
+  background-color: #401004;
+  margin-top: 1%;
+  padding: 2% 2.5%;
+  border-radius: 5px;
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.button:hover {
+  color: white;
+}
+
+.back {
+  float: left;
+  margin-left: 1%;
+  font-size: 5em;
+  color: #401004;
+}
+
+.back:hover {
+  color: white;
+}
+
 .wrapper {
   position: absolute;
   min-width: 700px;
